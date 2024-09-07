@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" sizes="192x192" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <title>  Home|Ten Investing</title>
+</head>
+
+<body>
+  <!-- Nav bar -->
+
+  <nav id="navbar-resp">
+    <div class="menu-toggle active" id="menu_toggle_cross">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul id="nav-links-resp">
+      <li><a onclick="navigate()" href="#home">Home</a></li>
+      <li><a onclick="navigate()" href="#about">About</a></li>
+      <li><a onclick="navigate()" href="#portfolio">Portfolio</a></li>
+      <li><a onclick="navigate()" href="#contact">Contact</a></li>
+      <li class="dropdown-list">
+        <a href="#project"> 
+          Our Websites
+        </a>
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+        <ul class="dropdown-content top">
+          <li><a onclick="navigate()" href="https://mentor.entrepreneurshipnetwork.net/ " target="_blank" rel="noopener noreferrer"> TEN mentor </a></li>
+          <li><a onclick="navigate()" href=" https://resume.entrepreneurshipnetwork.net/ " target="_blank" rel="noopener noreferrer"> ResumeBuilding </a></li>
+          <li><a onclick="navigate()" href="https://influencer-marketing-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">InfluencerMarketing</a></li>
+          <li><a onclick="navigate()" href="https://www.entrepreneurshipnetwork.net/HRMS" target="_blank" rel="noopener noreferrer">HRMS</a>
+          <li><a onclick="navigate()" href="https://www.entrepreneurshipnetwork.net/AI-Labs" target="_blank" rel="noopener noreferrer">TEN AI labs</a></li></li>
+          <li><a onclick="navigate()" href="https://www.entrepreneurshipnetwork.net/Idea-Engine" target="_blank" rel="noopener noreferrer">TEN Idea Engine</a></li>
+          <!-- <li><a href="/login">TEN Investors</a></li> -->
+          <li><a onclick="navigate()" href="https://discord.com/invite/wdgH95JY6a" target="_blank"> Virtual Campus</a></li>
+          <li><a onclick="navigate()" href="https://godengine.entrepreneurshipnetwork.net/" target="_blank">God Engine</a></li>
+          <li><a onclick="navigate()" href="https://employeemanagement.entrepreneurshipnetwork.net/" target="_blank">Employee Management System</a></li>
+        </ul>
+      </li>
+      <li id="nav-btn"><button>Get in touch</button></li>
+      <li class="social-links">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <nav class="navbar" id="navbar">
+    <div class="logo-container">
+      <div class="logo">
+        <a><img
+            src="https://static.wixstatic.com/media/1ff34d_20034daff27d41ee958bd8b83a8dc8ec~mv2.png/v1/fill/w_74,h_74,al_c,lg_1,q_85,enc_auto/pp_edited.png" /></a>
+      </div>
+      <div class="title">
+        <b>TEN Investing</b>
+        <span class="subtitle">Financing the Future of Innovation</span>
+      </div>
+    </div>
+    <div class="menu-toggle" id="menu_toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="dropdown-list">
+        <a href="#projects">Our Websites</a>
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+        <ul class="dropdown-content">
+          <li><a href="https://mentor.entrepreneurshipnetwork.net/ " target="_blank" rel="noopener noreferrer"> TEN mentor </a></li>
+          <li><a href=" https://resume.entrepreneurshipnetwork.net/ " target="_blank" rel="noopener noreferrer"> ResumeBuilding </a></li>
+          <li><a href="https://influencer-marketing-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">InfluencerMarketing</a></li>
+          <li><a href="https://www.entrepreneurshipnetwork.net/HRMS" target="_blank" rel="noopener noreferrer">HRMS</a></li>
+          <li><a href="https://www.entrepreneurshipnetwork.net/AI-Labs" target="_blank" rel="noopener noreferrer">TEN AI labs</a></li>
+          <li><a href="https://www.entrepreneurshipnetwork.net/Idea-Engine" target="_blank" rel="noopener noreferrer">TEN Idea Engine</a></li>
+          <!-- <li><a href="/login">TEN Investors</a></li> -->
+          <li><a href="https://discord.com/invite/wdgH95JY6a" target="_blank"> Virtual Campus</a></li>
+          <li><a href="https://godengine.entrepreneurshipnetwork.net/" target="_blank">God Engine</a></li>
+          <li><a href="https://employeemanagement.entrepreneurshipnetwork.net/" target="_blank">Employee Management System</a></li>
+        </ul>
+      </li>
+      <li class="social-links">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+      <li><button>Get in touch</button></li>
+    </ul>
+  </nav>
+
+  <div id="ten-container-resp">
+    <div id="ten-data-resp">
+      <h1 id="home">TEN Investing</h1>
+      <h6>Accelerating Growth</h6>
+      <p>
+        We’re TEN Investing, and we’ve been involved in the investment scene since 2019. Our goal is to find
+        promising startups and talented entrepreneurs with the potential to change the world.
+      </p>
+    </div>
+    <div id="coin-image-resp">
+      <wix-bg-media id="bgMedia_comp-kcwxpia52" class="SUz0WK" data-container-id="comp-kcwxpia52"
+        data-container-size="0, 0" data-page-id="pgmhj" data-bg-effect-name="BgParallax" data-motion-part="BG_MEDIA">
+        <wow-image id="img_comp-kcwxpia52" class="HlRz5e Kv1aVt dLPlxY mNGsUM bgImage"
+          data-image-info="{&quot;containerId&quot;:&quot;comp-kcwxpia52&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;&quot;,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;,&quot;&quot;uri&quot;:&quot;55b0bfb476ba49f1bd945345901ed72a.jpg&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;focalPoint&quot;:{&quot;x&quot;:50,&quot;y&quot;:50}}}"
+          data-motion-part="BG_IMG" data-bg-effect-name="BgParallax" data-has-ssr-src="">
+          <img id="parallaxImage-1"
+            src="https://static.wixstatic.com/media/55b0bfb476ba49f1bd945345901ed72a.jpg/v1/fill/w_490,h_660,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/55b0bfb476ba49f1bd945345901ed72a.jpg"
+            alt="Coins" fetchpriority="high">
+        </wow-image>
+      </wix-bg-media>
+    </div>
+  </div>
+
+
+  <div id="ten-container">
+    <div id="coin-image">
+      <wix-bg-media data-container-id="comp-kcwxpia52" data-container-size="0, 0" data-page-id="pgmhj"
+        data-bg-effect-name="BgParallax" data-motion-part="BG_MEDIA">
+        <wow-image id="img_comp-kcwxpia52" class="HlRz5e Kv1aVt dLPlxY mNGsUM bgImage"
+          data-image-info="{&quot;containerId&quot;:&quot;comp-kcwxpia52&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;&quot;,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;,&quot;&quot;uri&quot;:&quot;55b0bfb476ba49f1bd945345901ed72a.jpg&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;focalPoint&quot;:{&quot;x&quot;:50,&quot;y&quot;:50}}}"
+          data-motion-part="BG_IMG" data-bg-effect-name="BgParallax" data-has-ssr-src="">
+          <img id="parallaxImage-2"
+            src="https://static.wixstatic.com/media/55b0bfb476ba49f1bd945345901ed72a.jpg/v1/fill/w_490,h_660,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/55b0bfb476ba49f1bd945345901ed72a.jpg"
+            alt="Coins" fetchpriority="high">
+        </wow-image>
+      </wix-bg-media>
+    </div>
+    <div id="ten-data">
+      <h1 id="home">TEN Investing</h1>
+      <h6>Accelerating Growth</h6>
+      <p>
+        We’re TEN Investing, and we’ve been involved in the investment scene since 2019. Our goal is to find
+        promising startups and talented entrepreneurs with the potential to change the world.
+      </p>
+    </div>
+  </div>
+
+  <div id="chat-box">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+      style="border-radius: 0px; fill: rgb(255, 255, 255); width: 26px; height: 26px; flex-shrink: 0;">
+      <path
+        d="M16 2C8.28 2 2 7.8 2 14.93a12.144 12.144 0 001.696 6.15l-1.668 7.51A1.16 1.16 0 003.63 29.9l6.914-3.072A14.835 14.835 0 0016 27.861c7.72 0 14-5.8 14-12.93S23.72 2 16 2zm4.508 16.32h-9.016a1.16 1.16 0 010-2.32h9.016a1.16 1.16 0 010 2.32zm0-4.638h-9.016a1.16 1.16 0 010-2.318h9.016a1.16 1.16 0 110 2.318z"
+        fill="currentColor" fill-rule="nonzero"></path>
+    </svg>
+    <p>Let's Chat!</p>
+  </div>
+
+  <!-- about  -->
+  <div id="about">
+    <div class="centered-content">
+      <a href="#" class="heading-link">
+        <h1>Our Story</h1>
+      </a>
+      <h3 class="investor_text">Investing in the Future</h3>
+      <div id="ten-video-resp">
+        <iframe src="https://player.vimeo.com/video/208274887?title=0&amp;byline=0&amp;portrait=0" width="100%"
+          height="420" frameborder="0" allow="autoplay; fullscreen"  controls></iframe>
+      </div>
+      <p>
+        TEN Investing was founded in 2019 and has grown into a leading Investment Company. Since our establishment,
+        we’ve invested in and partnered with a number of well-known startups that are doing great things in their
+        respective fields. When it comes to investing, there’s no such thing as approaching us too early. In fact, the
+        earlier we come on board, the better.
+      </p>
+      <div class="learn_btn"> <button>Learn more</button></div>
+      <div id="ten-video-frame">
+        <iframe src="https://player.vimeo.com/video/208274887?title=0&byline=0&portrait=0" width="100%" height="420px"
+          frameborder="0" allow="autoplay; fullscreen"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- portfolio section -->
+  <section id="portfolio">
+    <div id="container_section">
+      <br><br><br><br>
+
+      <div id="heading" class="head" data-testid="richTextElement">
+        <h2 class="font_6 wixui-rich-text__text" style="line-height: 1.35em; text-align: center; font-size: 40px">
+          <span class="color_32 wixui-rich-text__text"><span style="font-weight: bold" class="wixui-rich-text__text">
+              <soild style="color:rgb(177 137 76)">Venture Portfolio</soild>
+            </span></span>
+        </h2>
+      </div>
+      <div id="comp-knbgv9vo1" class="HcOXKn SxM0TO QxJLC3 comp-knbgv9vo1 wixui-rich-text"
+        data-testid="richTextElement">
+        <p class="font_8 wixui-rich-text__text" style="text-align: center; line-height: 1.75em; font-size: 18px">
+          <span class="color_11 wixui-rich-text__text"><span class="wixui-rich-text__text">Partners.
+              Visionaries.</span></span>
+        </p>
+      </div>
+      <div id="comp-knbgv9vo2" class="HcOXKn SxM0TO QxJLC3 comp-knbgv9vo2 wixui-rich-text"
+        data-testid="richTextElement">
+        <p class="font_9 wixui-rich-text__text" style="line-height: 1.875em; text-align: center; font-size: 15px">
+          <span class="color_11 wixui-rich-text__text"><span class="wixui-rich-text__text">We have partnered with
+              top-tier entrepreneurs in multiple
+              industries and sectors. Check out some of the great companies we
+              have made part <br> of the TEN&nbsp;investing portfolio and taken from
+              startup to exit.</span></span>
+        </p>
+      </div>
+      <!-- <div id="container_section"> -->
+      <div class="container">
+
+        <div class="icon">
+          <img
+            src="https://static.wixstatic.com/media/1ff34d_20034daff27d41ee958bd8b83a8dc8ec~mv2.png/v1/fill/w_74,h_74,al_c,lg_1,q_85,enc_auto/pp_edited.png"
+            alt="Entrepreneurship Network Logo" width: 212px; height: 213px; />
+        </div>
+        <div class="content">
+          <h2 style="color:rgb(177 137 76)">The Entrepreneurship Network</h2>
+          <p>
+            The Entrepreneurship Network was one of the first companies we
+            invested in, and their founding team was a big factor in our
+            decision. Their huge success proved that our early-stage decision to
+            invest in them was the right one.
+          </p>
+          <a href="http://entrepreneurshipnetwork.net" class="button">Find Out More</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="icon">
+          <img
+            src="https://static.wixstatic.com/media/1ff34d_aaab397717244cb88505341a3412b87f~mv2.jpg/v1/fill/w_330,h_271,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%2520Image%25202020-07-20%2520at%252020_.jpg"
+            width: 212px; height: 213px; alt="Charm Emporium" />
+        </div>
+        <div class="content">
+          <h2 style="color:rgb(177 137 76)">Charm Emporium</h2>
+          <p>
+            We are the sole investor of Charm Emporium, which was a huge
+            indication of our trust and belief in each other. Since then it has
+            become one of the most talked about companies in its field.
+          </p>
+          <a href="http://charmemporium.shop/" class="button">Get in Touch</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="icon">
+          <img
+            src="https://static.wixstatic.com/media/34a050f696dc4d18978e83874a0b82bc.png/v1/fill/w_330,h_330,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Client%205.png"
+            alt="HR Consulting" width: 212px; height: 213px; />
+        </div>
+        <div class="content">
+          <h2 style="color:rgb(177 137 76)">HR Consulting</h2>
+          <p>
+            When we first met the founders of HR Consulting, we knew we had
+            discovered something really special. Since we made our first
+            investment, other firms have also seen the potential and HR
+            Consulting looks set to make a huge impact in the industry.
+          </p>
+          <a href="https://contactcharmempori.wixsite.com/website-2" class="button">Find Out More</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="icon">
+          <img
+            src="https://static.wixstatic.com/media/11062b_e08c89369c6345c9a7698e7ca1d32ea3~mv2.jpeg/v1/fill/w_330,h_176,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting%20.jpeg"
+            width: 212px; height: 213px; alt="TEN Marketing" />
+        </div>
+        <div class="content">
+          <h2 style="color:rgb(177 137 76)">TEN Marketing</h2>
+          <p>
+            Something about the website and the purpose of it's creation. The
+            founder's ambition to change the world of Marketing.
+          </p>
+          <a href="https://contacttenmarketin.wixsite.com/marketing" class="button">Get in Touch</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="icon">
+          <img
+            src="https://static.wixstatic.com/media/b79c5c268339492891db2d787acafa98.png/v1/fill/w_330,h_330,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Client%206.png"
+            alt="TEN Consulting" width: 212px; height: 213px; />
+        </div>
+        <div class="content">
+          <h2 style="color:rgb(177 137 76)">TEN Consulting</h2>
+          <p>
+            TEN Consulting was one of the first companies we invested in, and
+            their founding team was a big factor in our decision. Their huge
+            success proved that our early-stage decision to invest in them was
+            the right one.
+          </p>
+          <a href="https://consulting.entrepreneurshipnetwork.net/" class="button">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section  -->
+
+  <div class="container_contact" id="contact">
+    <div class="left-section">
+      <img id="left-image"
+        src="https://static.wixstatic.com/media/8349d7_a07f3866859f4c639ab1470ef46c454f~mv2.jpg/v1/fill/w_1195,h_1783,fp_0.50_0.50,q_90,enc_auto/8349d7_a07f3866859f4c639ab1470ef46c454f~mv2.jpg"
+        alt="Contact Image" />
+      <img id="left-image-resp"
+        src="https://static.wixstatic.com/media/8349d7_a07f3866859f4c639ab1470ef46c454f~mv2.jpg/v1/fill/w_640,h_440,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/8349d7_a07f3866859f4c639ab1470ef46c454f~mv2.jpg"
+        alt="Contact_edited.jpg">
+    </div>
+    <div class="right-section">
+      <g>Contact</g>
+      <w>
+        We are always looking for the next big idea. Get in touch with us to
+        find out more.
+      </w>
+      <h>New Delhi</h>
+      <p>
+        <a href="mailto:info@entrepreneurshipnetwork.net">info@entrepreneurshipnetwork.net</a>
+      </p>
+
+      <form id="form-data" action="https://api.web3forms.com/submit" method="POST" onsubmit="formSubmit(event)">
+        <input type="hidden" name="access_key" value="263a2ee9-1f24-4b9c-9a19-f41bf2e55abc" >
+        <input type="text" id="name" name="name" placeholder="Name" autocomplete="off" required/>
+        <input type="text" placeholder="Address" name="Address" autocomplete="off" required/>
+        <div class="email-phone">
+          <input type="email" id="email" name="email" placeholder="Email" autocomplete="off" required/>
+          <input type="tel" placeholder="Phone" name="Phone" autocomplete="off"/>
+        </div>
+        <input type="text" placeholder="Subject" name="Subject" autocomplete="off"/>
+        <div class="textarea">
+          <textarea placeholder="Type your message here..." rows="4" name="message" autocomplete="off"></textarea>
+          <input type="hidden" name="redirect" value="https://web3forms.com/success">
+          <button id="submit-btn">Submit</button>
+        </div>
+        <p id="submit-popup">Thanks for submitting!</p>
+      </form>
+    </div>
+  </div>
+  <!-- Map section -->
+
+  <section class="map_part">
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220256.8895777876!2d77.04417403081368!3d28.52725273949971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e1!3m2!1sen!2sin!4v1725000231971!5m2!1sen!2sin"
+        alt="location not found" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <br />
+  </section>
+
+  <div id="place">
+    <p>New Delhi</p>
+    <p>
+      <a href="mailto:info@entrepreneurshipnetwork.net">info@entrepreneurshipnetwork.net</a>
+    </p>
+  </div>
+
+  <!-- footer  -->
+
+  <footer style="line-height: 13.2px">
+    <div class="footer_part">
+      <a href="#top">
+        <h4>TEN Investing</h4>
+      </a>
+      <p>info@entrepreneurshipnetwork.net</p>
+
+      <div id="comp-kd4fkh5a" class="comp-kd4fkh5a WzbAF8">
+        <ul class="mpGTIt" aria-label="Social Bar">
+          <li id="dataItem-knbgsglw-comp-kd4fkh5a" class="O6KwRn">
+            <a data-testid="linkElement" href="https://www.instagram.com/theentrepreneurshipnetwork/" target="_blank"
+              class="oRtuWN" aria-label="Instagram"><wow-image id="img_0_comp-kd4fkh5a" class="HlRz5e YaS0jR"
+                data-image-info='{"containerId":"dataItem-knbgsglw-comp-kd4fkh5a","displayMode":"fill","imageData":{"width":200,"height":200,"uri":"81af6121f84c41a5b4391d7d37fce12a.png","name":"Instagram","displayMode":"fill"}}'
+                data-motion-part="BG_IMG" data-bg-effect-name="" data-has-ssr-src=""
+                style="--wix-img-max-width: max(200px, 100%)"><img alt="Instagram" fetchpriority="high"
+                  src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Instagram.png"
+                  style="
+                      width: 20px;
+                      height: 20px;
+                      object-fit: cover;
+                    " /></wow-image></a>
+          </li>
+          <li id="dataItem-knbgsglw2-comp-kd4fkh5a" class="O6KwRn">
+            <a data-testid="linkElement" href="https://www.linkedin.com/company/the-entrepreneurship-network/"
+              target="_blank" class="oRtuWN" aria-label="LinkedIn"><wow-image id="img_1_comp-kd4fkh5a"
+                class="HlRz5e YaS0jR"
+                data-image-info='{"containerId":"dataItem-knbgsglw2-comp-kd4fkh5a","displayMode":"fill","imageData":{"width":200,"height":200,"uri":"7528824071724d12a3e6c31eee0b40d4.png","name":"LinkedIn","displayMode":"fill"}}'
+                data-motion-part="BG_IMG" data-bg-effect-name="" data-has-ssr-src=""
+                style="--wix-img-max-width: max(200px, 100%)"><img alt="LinkedIn" fetchpriority="high"
+                  src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LinkedIn.png"
+                  style="
+                      width: 20px;
+                      height: 20px;
+                      object-fit: cover;
+                    " /></wow-image></a>
+          </li>
+          <li id="dataItem-knbgsglx1-comp-kd4fkh5a" class="O6KwRn">
+            <a data-testid="linkElement"
+              href="https://www.facebook.com/pages/category/Education-Website/The-Entrepreneurship-Network-105155667888383/"
+              target="_blank" class="oRtuWN" aria-label="Facebook"><wow-image id="img_2_comp-kd4fkh5a"
+                class="HlRz5e YaS0jR"
+                data-image-info='{"containerId":"dataItem-knbgsglx1-comp-kd4fkh5a","displayMode":"fill","imageData":{"width":200,"height":200,"uri":"23fd2a2be53141ed810f4d3dcdcd01fa.png","name":"Facebook","displayMode":"fill"}}'
+                data-motion-part="BG_IMG" data-bg-effect-name="" data-has-ssr-src=""
+                style="--wix-img-max-width: max(200px, 100%)"><img alt="Facebook" fetchpriority="high"
+                  src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Facebook.png"
+                  style="
+                      width: 20px;
+                      height: 20px;
+                      object-fit: cover;
+                    " /></wow-image></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer_last">
+      <p class="design_team">
+        <br />
+        @2024 by entrepreneurship network
+      </p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
+
+<!-- <div id="resp-navbar">
+      <ul class="nav-links" id="nav-links-resp">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li id="nav-btn"><button>Get in touch</button></li>
+        <li class="social-links">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+      </ul>
+    </div> -->
